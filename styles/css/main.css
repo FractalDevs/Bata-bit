@@ -1,0 +1,129 @@
+/* Fonts */
+/* Colors */
+/* Shadows */
+/* Mixins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 314px;
+  text-align: center;
+  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+header img {
+  width: 150px;
+  height: 24px;
+  margin-block-start: 40px;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 30px;
+}
+.header__container h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #fff;
+}
+
+.header__txt {
+  margin-block-start: 10px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #FFE9D5;
+}
+
+.header__btn {
+  position: absolute;
+  inset-block-end: -24px;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background: #FAF8F7;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #282623;
+}
+.header__btn span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-inline-start: 10px;
+  background-image: url("./../../assets/icons/down-arrow.svg");
+}
+
+main {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background: #FAF8F7;
+}
+
+.exchange {
+  width: 100%;
+  height: auto;
+  padding-block: 80px 30px;
+  text-align: center;
+}
+
+.exchange__background {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-block-end: 50px;
+  background-image: url("./../../assets/img/Bitcoin.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.exchange__title {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.exchange__title h2 {
+  margin-block-end: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #282623;
+}
+.exchange__title p {
+  margin-block-end: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
+}
+
+/*# sourceMappingURL=main.css.map */
